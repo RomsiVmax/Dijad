@@ -1,0 +1,11 @@
+{
+  "death_dream_sound": {
+    "subtitle": "subtitles.death_dream_sound",
+    "sounds": [
+      {
+        "name": "death_is_just_a_dream:death_dream_sound",
+        "stream": false
+      }
+    ]
+  }
+}

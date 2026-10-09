@@ -1,0 +1,155 @@
+{
+  "mod_elements": [
+    {
+      "name": "GameruleInstantRespawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamerule_instant_respawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/procedures/GameruleInstantRespawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GameruleInstantRespawnReset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamerule_instant_respawn_reset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/procedures/GameruleInstantRespawnResetProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/client/gui/DeathGUIScreen.java",
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/world/inventory/DeathGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OnDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "on_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/procedures/OnDeathProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/romsivmax/death_is_just_a_dream/procedures/TestProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "death_dream_sound",
+      "files": [
+        "death_dream_sound"
+      ],
+      "category": "ui",
+      "subtitle": "Waking up from a dream"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.death_dream_sound": "Waking up from a dream"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/io/github/romsivmax/death_is_just_a_dream/network/MenuStateUpdateMessage.java",
+      "src/main/java/io/github/romsivmax/death_is_just_a_dream/init/DeathIsJustADreamModMenus.java",
+      "src/main/java/io/github/romsivmax/death_is_just_a_dream/init/DeathIsJustADreamModScreens.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/io/github/romsivmax/death_is_just_a_dream/init/DeathIsJustADreamModSounds.java",
+      "src/main/java/io/github/romsivmax/death_is_just_a_dream/DeathIsJustADreamMod.java",
+      "src/main/resources/assets/death_is_just_a_dream/sounds.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "death_is_just_a_dream",
+    "modName": "Death is just a dream",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "io.github.romsivmax.death_is_just_a_dream"
+  },
+  "mcreatorVersion": 202600114619
+}

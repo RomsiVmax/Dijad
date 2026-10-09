@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.romsivmax.death_is_just_a_dream.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedUsageConditionsMixin",
+    "BedPreventGettingKickedOutOnTickEvent"
+  ],
+  "client": [],
+  "server": []
+}
